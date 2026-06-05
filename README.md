@@ -77,19 +77,6 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-### Установка из репозитория GitLab
-
-``` bash
-# Способ:
-pip install max-sdk --index-url https://sdk_max:gldt-FBbvNXRXX9pUMZLR6s8P@gitlab.com/api/v4/projects/76864498/packages/pypi/simple 
-
-в requirements.txt
-
-# Способ: Через git
---extra-index-url https://sdk_max:gldt-FBbvNXRXX9pUMZLR6s8P@gitlab.com/api/v4/projects/76864498/packages/pypi/simple
-max-sdk==0.0.3
-```
-
 ### Доступные API модули
 
 ```python
